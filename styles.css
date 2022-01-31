@@ -103,3 +103,10 @@
 
     }
 }
+
+@media (max-width: 400px){
+    .showcase{
+        padding: 25px;
+
+    }
+}
