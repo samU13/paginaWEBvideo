@@ -60,7 +60,7 @@
 .text h2{
     font-size: 5em;
     font-weight: 800;
-    font-weight: 1em;
+    line-height: 1em;
     text-transform: uppercase;
 }
 .text h3{
@@ -101,5 +101,21 @@
     .showcase{
         padding: 45px;
 
+    }
+}
+
+@media (max-width: 400px){
+    .showcase{
+        padding: 25px;
+
+    }
+}
+
+@media (max-width: 400px){
+    .text h2{
+        font-size: 4em;;
+    }
+    .text h3{
+        font-size: 3em;
     }
 }
