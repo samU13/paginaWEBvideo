@@ -47,7 +47,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: crimson;
+    background: rgb(202, 102, 122);
     mix-blend-mode: overlay;
 
 }
@@ -65,7 +65,7 @@
 }
 .text h3{
     font-size: 4em;
-    font-weight: 700;
+    font-weight: 650;
     line-height: 1em;
     text-transform: uppercase;
 }
@@ -95,4 +95,11 @@
 .logo{
     font-family: 'Comforter', cursive;
     font-size: 38px;
+}
+
+@media (max-width: 715px){
+    .showcase{
+        padding: 45px;
+
+    }
 }
